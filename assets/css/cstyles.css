@@ -1,0 +1,61 @@
+p.ud-widget-desc {
+    max-width: 400px !important;
+}
+.ud-widget .ud-widget-socials a {
+    font-size: 25px;
+}
+.marginB1Rem {
+    margin-bottom: 1.5rem;
+}
+.servicesTitle{
+    width: 100%;
+    max-width: 900px;
+}
+#services .ud-about-wrapper {
+    align-items: center;
+}
+
+.servicesRow {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+#services .servicesRow::before, #services .servicesRow::after {
+    color: black;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: 1px solid #3056d37d;
+    position: absolute;
+    transition: none;
+}
+#services .servicesRow::before {
+    content: " ";
+    border-radius: 0 0px 50px 0;
+}
+
+#services .servicesRow::after {
+    content: "";
+    border-radius: 50px 0px 0px 0;
+    bottom: 0;
+    right: 0;
+}
+
+#inAnutshell .ud-feature-icon {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#inAnutshell .ud-single-feature {
+    margin-bottom: 0;
+    padding: 25px;
+    border: 1px solid rgb(0, 1, 236);
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgb(0 1 236 / 0.2);
+    transition: margin-top 0.2s;
+}
+
+#inAnutshell .ud-single-feature:hover {
+    margin-top: -20px;
+}
