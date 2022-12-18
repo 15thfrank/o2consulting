@@ -50,7 +50,7 @@ p.ud-widget-desc {
     padding: 25px;
     border: 1px solid rgb(0, 1, 236);
     border-radius: 25px;
-    box-shadow: 0 3px 10px rgb(0 1 236 / 0.2);
+    box-shadow: 0 8px 8px -7px rgb(0, 1, 236);
     transition: margin-top 0.2s;
     margin-bottom: 1.5rem;
 }
