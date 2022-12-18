@@ -13,7 +13,9 @@ p.ud-widget-desc {
 }
 #services .ud-about-wrapper {
     align-items: center;
-    border: 1px solid rgb(0, 1, 236)
+    border: 1px solid rgb(0, 1, 236);
+    border-radius: 25px 25px 0 0;
+    box-shadow: rgb(0 1 236) 0px 8px 8px -7px;
 }
 
 .servicesRow {
@@ -57,4 +59,37 @@ p.ud-widget-desc {
 
 #inAnutshell .ud-single-feature:hover {
     margin-top: -20px;
+}
+
+#CTA {
+    background: -webkit-gradient(linear, left top, left bottom, from(#3056d3), to(#179bee));
+    background: linear-gradient(180deg, #3056d3 0%, #179bee 100%);
+    border: none;
+    padding: 55px 30px;
+    position: relative;
+    z-index: 999 ;
+}
+
+#CTA h2, #CTA p {
+    color: #fff;
+}
+
+a.ctaBtn {
+    background: white;
+    padding: 0.75em 1.75em;
+    border-radius: 0.35em;
+    margin-top: 1em;
+}
+
+a.ctaBtn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#CTA .ud-section-title {
+    margin: 2rem 0;
+}
+
+.ud-brands .ud-title {
+    margin-bottom: 10px;
 }
