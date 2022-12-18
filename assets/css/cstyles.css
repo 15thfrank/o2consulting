@@ -13,6 +13,7 @@ p.ud-widget-desc {
 }
 #services .ud-about-wrapper {
     align-items: center;
+    border: 1px solid rgb(0, 1, 236)
 }
 
 .servicesRow {
@@ -20,25 +21,22 @@ p.ud-widget-desc {
     margin-bottom: 1.5rem;
 }
 
-#services .servicesRow::before, #services .servicesRow::after {
-    color: black;
-    height: 50px;
-    width: 50px;
-    background-color: transparent;
-    border: 1px solid #3056d37d;
-    position: absolute;
-    transition: none;
-}
-#services .servicesRow::before {
-    content: " ";
-    border-radius: 0 0px 50px 0;
-}
-
 #services .servicesRow::after {
     content: "";
     border-radius: 50px 0px 0px 0;
     bottom: 0;
     right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 1, 236);
+    border: 1px solid rgb(0, 1, 236);
+    position: absolute;
+    transition: none;
+}
+
+#services .servicesRow:nth-child(odd)::after {
+    left:0;
+    border-radius: 0px 50px 0px 0;
 }
 
 #inAnutshell .ud-feature-icon {
@@ -54,6 +52,7 @@ p.ud-widget-desc {
     border-radius: 25px;
     box-shadow: 0 3px 10px rgb(0 1 236 / 0.2);
     transition: margin-top 0.2s;
+    margin-bottom: 1.5rem;
 }
 
 #inAnutshell .ud-single-feature:hover {
