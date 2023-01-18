@@ -1,3 +1,58 @@
+#home {
+    min-height: 100vh;
+}
+#home .hero-content-wrapper, #home .hero-image-wrapper{
+    padding: 0 1rem;
+}
+.hero-image-wrapper {
+    display: flex;
+    vertical-align: middle;
+}
+
+.hero-content-wrapper .ud-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#home .ud-hero-desc {
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+#home .ud-main-btn {
+    margin: 1rem 0;
+}
+
+#coreAreas .ud-single-feature .ud-feature-desc {
+    margin-bottom: 0;
+}
+
+#coreAreas .ud-about-wrapper {
+    border-radius: 25px;
+}
+
+@media (min-width: 991.99px) {
+    .text-left {
+        text-align: left !important;
+        justify-content: flex-start !important;
+    }
+    #home .ud-hero-desc {
+        margin: 0;
+    }
+}
+
+#features .ud-about-image {
+    margin: 0 auto;
+    display: flex; flex-wrap: wrap; align-content: center;
+}
+#features .ud-about-image img {
+    width: auto;
+}
+
+/* Mods for Consulting page --previous index.html */
+
 p.ud-widget-desc {
     max-width: 400px !important;
 }
@@ -47,7 +102,7 @@ p.ud-widget-desc {
     margin-bottom: 15px;
 }
 
-#inAnutshell .ud-single-feature {
+#inAnutshell .ud-single-feature, #coreAreas .ud-single-feature {
     margin-bottom: 0;
     padding: 25px;
     border: 1px solid rgb(0, 1, 236);
@@ -55,10 +110,14 @@ p.ud-widget-desc {
     box-shadow: 0 8px 8px -7px rgb(0, 1, 236);
     transition: margin-top 0.2s;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 #inAnutshell .ud-single-feature:hover {
     margin-top: -20px;
+}
+#coreAreas .ud-single-feature:hover {
+    margin-top: -10px;
 }
 
 #CTA {
@@ -98,4 +157,39 @@ a.ctaBtn:hover {
     #services .ud-about-image {
         display: none;
     }
+}
+
+#coreAreas .ud-single-feature {
+    padding: 2rem;
+}
+
+.usecasewrap {
+    padding: 1rem;
+    position: relative;
+}
+
+.usecasehead {
+    position: absolute;
+    background-color: blue;
+    border-radius: 1rem 0 0 1rem;
+    margin-left: 1rem;
+    top: 0.3rem;
+    right: 1rem;
+    padding: 0.1rem 1.5rem;
+    border: 1px solid blue;
+}
+
+.usecasehead:nth-child(even){
+    left: 0;
+}
+
+.usecasehead p {
+    color: white;
+    font-weight: bold;
+}
+
+.usecasedesc {
+    border: 1px solid blue;
+    padding: 1.5rem 1rem 1rem 1rem;
+    border-radius: 1rem 0 0 0;
 }
