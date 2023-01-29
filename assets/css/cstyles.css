@@ -1,3 +1,11 @@
+:root {
+    --o2blue: #315dec;
+    --o2bluelight: #4bdefe;
+    --o2orange: #f15a2a;
+    --o2orangelight: #fea903;
+    --o2purple: #4a1fbe;
+  }
+
 #home {
     min-height: 100vh;
 }
@@ -38,7 +46,7 @@
         text-align: left !important;
         justify-content: flex-start !important;
     }
-    #home .ud-hero-desc {
+    #home.training .ud-hero-desc {
         margin: 0;
     }
 }
@@ -116,9 +124,6 @@ p.ud-widget-desc {
 #inAnutshell .ud-single-feature:hover {
     margin-top: -20px;
 }
-#coreAreas .ud-single-feature:hover {
-    margin-top: -10px;
-}
 
 #CTA {
     background: -webkit-gradient(linear, left top, left bottom, from(#3056d3), to(#179bee));
@@ -161,6 +166,7 @@ a.ctaBtn:hover {
 
 #coreAreas .ud-single-feature {
     padding: 2rem;
+    transition: all 0.5s;
 }
 
 .usecasewrap {
@@ -170,13 +176,13 @@ a.ctaBtn:hover {
 
 .usecasehead {
     position: absolute;
-    background-color: blue;
+    background-color: var(--o2purple);
     border-radius: 1rem 0 0 1rem;
     margin-left: 1rem;
     top: 0.3rem;
     right: 1rem;
     padding: 0.1rem 1.5rem;
-    border: 1px solid blue;
+    border: 1px solid var(--o2purple);
 }
 
 .usecasehead:nth-child(even){
@@ -189,7 +195,72 @@ a.ctaBtn:hover {
 }
 
 .usecasedesc {
-    border: 1px solid blue;
+    border: 1px solid var(--o2purple);
     padding: 1.5rem 1rem 1rem 1rem;
     border-radius: 1rem 0 0 0;
+}
+#product {
+    background-image: url(/assets/images/hero/DataAnalysis-scaled.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+}
+#product .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#product .container {
+    position: inherit;
+    z-index: 9;
+}
+
+#product h2, #product h4 {
+    color: var(--o2white);
+}
+
+h1, h2, h3, h4 {
+    color: var(--o2blue);
+}
+.productCTA {
+    background-color: var(--o2orange);
+}
+#home .ud-link-btn {
+    background: none;
+}
+
+.serviceWrapper {
+    margin-top: 2rem;
+}
+
+.serviceCard {
+    border-radius: 25px;
+    border: 1px solid var(--o2purple);
+    padding: 2rem;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.serviceCard p {
+    margin-top: 1rem;
+}
+
+#coreAreas .ud-single-feature:hover, .serviceCard:hover {
+    background-color: var(--o2blue);
+    border: 1px solid var(--o2blue);
+    color:#fff;
+}
+#coreAreas .ud-single-feature:hover h3, #coreAreas .ud-single-feature:hover p, .serviceCard:hover p, .serviceCard:hover h4 {
+    color: var(--o2white);
+}
+.serviceCard .ud-main-btn {
+    margin-top: 1rem;
+    padding: 10px 15px;
 }

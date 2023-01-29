@@ -17,6 +17,11 @@
   --heading-color: #212b36;
   --primary-color: #3056d3;
   --white: #ffffff;
+  --o2blue: #315dec;
+  --o2bluelight: #4bdefe;
+  --o2orange: #f15a2a;
+  --o2orangelight: #fea903;
+  --o2purple: #4a1fbe;
 }
 
 body {
@@ -152,7 +157,7 @@ p {
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background: var(--primary-color);
+  background: var(--o2orange);
 }
 
 .ud-main-btn:hover {
@@ -178,7 +183,7 @@ p {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background: var(--primary-color);
+  background: var(--o2orange);
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -257,7 +262,7 @@ p {
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: var(--white);
+  background-color: var(--o2orange);
   display: block;
   margin: 5px 0;
   position: relative;
@@ -349,7 +354,7 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav .nav-item > a:hover, .navbar-nav .nav-item > a.active {
-    color: var(--primary-color);
+    color: var(--o2blue);
     opacity: 1;
   }
 }
@@ -393,7 +398,7 @@ p {
 }
 
 .navbar-nav .nav-item .ud-submenu .ud-submenu-link:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 .navbar-nav .nav-item:hover > a {
@@ -403,7 +408,7 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav .nav-item:hover > a {
-    color: var(--primary-color);
+    color: var(--o2blue);
     opacity: 1;
   }
 }
@@ -473,7 +478,7 @@ p {
 }
 
 .sticky .navbar-nav .nav-item:hover > a {
-  color: var(--primary-color);
+  color: var(--o2blue);
   opacity: 1;
 }
 
@@ -482,7 +487,7 @@ p {
 }
 
 .sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
   opacity: 1;
 }
 
@@ -491,12 +496,12 @@ p {
 }
 
 .sticky .navbar-btn .ud-main-btn.ud-login-btn:hover {
-  color: var(--primary-color);
+  color: var(--o2orange);
   opacity: 1;
 }
 
 .sticky .navbar-btn .ud-white-btn {
-  background: var(--primary-color);
+  background: var(--o2orange);
   color: var(--white);
 }
 
@@ -506,7 +511,7 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: var(--primary-color);
+  background: var(--o2blue);
   padding-top: 180px;
 }
 
@@ -607,7 +612,7 @@ p {
   -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
   background: #fefefe;
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 .ud-hero-buttons .ud-link-btn:hover {
@@ -681,7 +686,7 @@ p {
 .ud-section-title span {
   font-weight: 600;
   font-size: 18px;
-  color: var(--primary-color);
+  color: var(--o2blue);
   margin-bottom: 10px;
 }
 
@@ -728,7 +733,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 14px;
-  background: var(--primary-color);
+  background: var(--o2blue);
   font-size: 32px;
   color: var(--white);
   position: relative;
@@ -745,7 +750,7 @@ p {
   top: 0;
   left: 0;
   border-radius: 14px;
-  background: var(--primary-color);
+  background: var(--o2blue);
   opacity: 0.2;
   z-index: -1;
   -webkit-transform: rotate(23deg);
@@ -780,7 +785,7 @@ p {
 }
 
 .ud-single-feature .ud-feature-link:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 /* ===== About CSS ===== */
@@ -836,7 +841,7 @@ p {
   font-weight: 500;
   font-size: 14px;
   color: var(--white);
-  background: var(--primary-color);
+  background: var(--o2orange);
   padding: 5px 20px;
   display: inline-block;
   margin-bottom: 20px;
@@ -922,7 +927,7 @@ p {
 }
 
 .ud-single-pricing.first-item::after {
-  background: var(--primary-color);
+  background: var(--o2blue);
   left: -2px;
   bottom: -2px;
   border-radius: 0px 55px 0px 8px;
@@ -940,7 +945,7 @@ p {
   padding: 10px 25px;
   background: var(--white);
   border-radius: 30px;
-  color: var(--primary-color);
+  color: var(--o2blue);
   margin-bottom: 20px;
   font-weight: 600;
 }
@@ -954,7 +959,7 @@ p {
 .ud-single-pricing .ud-pricing-header h4 {
   font-weight: 600;
   font-size: 26px;
-  color: var(--primary-color);
+  color: var(--o2blue);
   margin-bottom: 40px;
 }
 
@@ -975,14 +980,14 @@ p {
 
 .ud-single-pricing .ud-border-btn {
   border: 1px solid #d4deff;
-  color: var(--primary-color);
+  color: var(--o2blue);
   background: var(--white);
 }
 
 .ud-single-pricing .ud-border-btn:hover {
   color: var(--white);
-  border-color: var(--primary-color);
-  background: var(--primary-color);
+  border-color: var(--o2blue);
+  background: var(--o2blue);
 }
 
 .ud-single-pricing .ud-white-btn {
@@ -1070,7 +1075,7 @@ p {
   height: 42px;
   background: rgba(48, 86, 211, 0.06);
   border-radius: 10px;
-  color: var(--primary-color);
+  color: var(--o2purple);
   margin-right: 24px;
 }
 
@@ -1304,7 +1309,7 @@ p {
 }
 
 .ud-single-team .ud-team-socials a:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 /* ===== Contact CSS ===== */
@@ -1387,7 +1392,7 @@ p {
 
 .ud-contact-info-wrapper .ud-info-icon {
   font-size: 32px;
-  color: var(--primary-color);
+  color: var(--o2blue);
   margin-right: 24px;
 }
 
@@ -1452,13 +1457,13 @@ p {
   padding: 15px 0;
   border: none;
   outline: none;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid var(--o2purple);
   resize: none;
 }
 
 .ud-contact-form-wrapper .ud-form-group input:focus,
 .ud-contact-form-wrapper .ud-form-group textarea:focus {
-  border-color: var(--primary-color);
+  border-color: var(--o2blue);
 }
 
 /* ===== Footer CSS ===== */
@@ -1528,7 +1533,7 @@ p {
 }
 
 .ud-widget .ud-widget-socials a:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 .ud-widget .ud-widget-title {
@@ -1547,7 +1552,7 @@ p {
 }
 
 .ud-widget .ud-widget-links a:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
   padding-left: 10px;
 }
 
@@ -1612,7 +1617,7 @@ p {
 }
 
 .ud-footer-bottom .ud-footer-bottom-left a:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 .ud-footer-bottom .ud-footer-bottom-right {
@@ -1623,7 +1628,7 @@ p {
 }
 
 .ud-footer-bottom .ud-footer-bottom-right a {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 .ud-footer-bottom .ud-footer-bottom-right a:hover {
@@ -1641,7 +1646,7 @@ p {
 .ud-page-banner {
   padding-top: 130px;
   padding-bottom: 80px;
-  background: var(--primary-color);
+  background: var(--o2blue);
   background-image: url("../images/banner/banner-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -1694,7 +1699,7 @@ p {
 }
 
 .ud-login-form .ud-form-group input:focus {
-  border-color: var(--primary-color);
+  border-color: var(--o2blue);
 }
 
 .ud-socials-connect {
@@ -1725,7 +1730,7 @@ p {
 
 .ud-socials-connect ul li a {
   height: 45px;
-  background: var(--primary-color);
+  background: var(--o2blue);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1777,7 +1782,7 @@ p {
 }
 
 .signup-option a {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 /* ====== Blog CSS ====== */
@@ -1829,7 +1834,7 @@ p {
   font-size: 12px;
   font-weight: 600;
   padding: 8px 16px;
-  background: var(--primary-color);
+  background: var(--o2blue);
   color: var(--white);
   border-radius: 5px;
   margin-bottom: 20px;
@@ -1854,7 +1859,7 @@ p {
 }
 
 .ud-single-blog .ud-blog-title a:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 .ud-single-blog .ud-blog-desc {
@@ -1875,7 +1880,7 @@ p {
   position: absolute;
   width: 80px;
   height: 2px;
-  background: var(--primary-color);
+  background: var(--o2blue);
   left: 0;
   bottom: 0;
 }
@@ -1992,7 +1997,7 @@ p {
 }
 
 .ud-blog-overlay-content .ud-blog-author a:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 .ud-blog-overlay-content .ud-blog-meta {
@@ -2095,7 +2100,7 @@ p {
 .ud-blog-quote i {
   font-size: 40px;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--o2blue);
   line-height: 1;
   margin-bottom: 20px;
 }
@@ -2183,13 +2188,13 @@ p {
   padding: 8px 16px;
   font-size: 12px;
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--o2blue);
   background: rgba(48, 86, 211, 0.06);
   border-radius: 3px;
 }
 
 .ud-blog-tags a:hover {
-  background: var(--primary-color);
+  background: var(--o2blue);
   color: var(--white);
 }
 
@@ -2272,7 +2277,7 @@ p {
 }
 
 .ud-newsletter-box {
-  background: var(--primary-color);
+  background: var(--o2blue);
   padding: 60px 45px;
   position: relative;
   z-index: 1;
@@ -2404,7 +2409,7 @@ p {
   position: absolute;
   width: 80px;
   height: 2px;
-  background: var(--primary-color);
+  background: var(--o2blue);
   left: 0;
   bottom: 0;
 }
@@ -2470,7 +2475,7 @@ p {
 }
 
 .ud-articles-box .ud-articles-list .ud-article-title a:hover {
-  color: var(--primary-color);
+  color: var(--o2blue);
 }
 
 .ud-articles-box .ud-articles-list .ud-article-author {
