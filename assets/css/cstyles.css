@@ -74,11 +74,11 @@ p.ud-widget-desc {
     width: 100%;
     max-width: 900px;
 }
-#services .ud-about-wrapper {
+#services .ud-about-wrapper, #features .ud-about-wrapper  {
     align-items: center;
-    border: 1px solid rgb(0, 1, 236);
+    border: 1px solid var(--o2purple);
     border-radius: 25px 25px 0 0;
-    box-shadow: rgb(0 1 236) 0px 8px 8px -7px;
+    box-shadow: var(--o2purple) 0px 8px 8px -7px;
 }
 
 .servicesRow {
@@ -125,7 +125,7 @@ p.ud-widget-desc {
     margin-top: -20px;
 }
 
-#CTA {
+#CTA, #careers {
     background: -webkit-gradient(linear, left top, left bottom, from(#3056d3), to(#179bee));
     background: linear-gradient(180deg, #3056d3 0%, #179bee 100%);
     border: none;
@@ -134,7 +134,7 @@ p.ud-widget-desc {
     z-index: 999 ;
 }
 
-#CTA h2, #CTA p {
+#CTA h2, #CTA p, #careers h2, #careers p  {
     color: #fff;
 }
 
@@ -263,4 +263,8 @@ h1, h2, h3, h4 {
 .serviceCard .ud-main-btn {
     margin-top: 1rem;
     padding: 10px 15px;
+}
+
+#careers .ud-section-title {
+    margin-bottom: 20px;
 }
