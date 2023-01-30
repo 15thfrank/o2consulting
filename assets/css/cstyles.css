@@ -4,6 +4,7 @@
     --o2orange: #f15a2a;
     --o2orangelight: #fea903;
     --o2purple: #4a1fbe;
+    --o2white: #fff;
   }
 
 #home {
@@ -167,6 +168,9 @@ a.ctaBtn:hover {
 #coreAreas .ud-single-feature {
     padding: 2rem;
     transition: all 0.5s;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
 }
 
 .usecasewrap {
@@ -247,6 +251,10 @@ h1, h2, h3, h4 {
     height: 100%;
     cursor: pointer;
     transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .serviceCard p {
     margin-top: 1rem;
@@ -268,3 +276,22 @@ h1, h2, h3, h4 {
 #careers .ud-section-title {
     margin-bottom: 20px;
 }
+
+.navbar-brand {
+    color: var(--o2white);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logoText {
+    font-weight: bold;
+    line-height: normal;
+}
+
+a.navbar-brand:hover {
+    color: #d7d7d7;
+}
+/* .homepage {
+    background: grey;
+} */

@@ -486,7 +486,7 @@ p {
   color: var(--heading-color);
 }
 
-.sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
+.sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover, .sticky .navbar .navbar-brand {
   color: var(--o2blue);
   opacity: 1;
 }
@@ -511,7 +511,7 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: var(--o2blue);
+  background: grey;
   padding-top: 180px;
 }
 
