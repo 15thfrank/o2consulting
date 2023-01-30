@@ -105,7 +105,6 @@
     <!-- ====== Hero End ====== -->
 
     <!-- ====== Core areas ====== -->
-
     <section id="coreAreas" class="ud-about">
       <div class="container">
         <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s" style="display: block;">
@@ -196,8 +195,6 @@
         </div>
       </div>
     </section>
-
-
     <!-- ====== Core areas end ====== -->
 
     <!-- ====== Features Start ====== -->
@@ -529,37 +526,36 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Use cases ====== -->
-    <section id="usecases" class="ud-features">
+    <section id="usecases" class="ud-features wow fadeInUp">
       <div class="container">
         <div class="row" style="margin-bottom: 2.5rem;">
           <h2 class="text-center">Use Cases</h2>
           <p class="text-center" style="font-size: 20px; line-height: 30px;">How our app can help improve your practice</p>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap">
+          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap wow fadeInUp">
             <div class="usecasehead"><p>Patient Acquisition – Commercial Line of Therapy</p></div>
             <div class="usecasedesc"><p>Determine if the true cause of patient discontinuation is drop-off or product switching, and if the root cause is cost related or provider related.</p></div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap">
+          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap wow fadeInUp">
             <div class="usecasehead"><p>Patient Acquisition – HCP Targeting</p></div>
             <div class="usecasedesc"><p>Help understand HCP prescribing pattern, as well as patient volume by HCP rolled up to their highest hierarchy.</p></div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap">
+          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap wow fadeInUp">
             <div class="usecasehead"><p>Patient Adherence – Persistency</p></div>
             <div class="usecasedesc">Determine the likelihood of a patient to stay on therapy</div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap">
+          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap wow fadeInUp">
             <div class="usecasehead"><p>Brand Analytics</p></div>
             <div class="usecasedesc"><p>Understanding brand performance and market share.</p></div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap">
+          <div class="col-lg-6 col-md-6 col-sm-12 usecasewrap wow fadeInUp">
             <div class="usecasehead"><p>Patient Adherence – Commercial and Patient Services</p></div>
             <div class="usecasedesc"><p>Help understand patient pathways as they move from hub to specialty pharmacy, and identify the likelihood of a patient to fill, areas where patients drop off and which patient services are most problematic.</p></div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- ====== Use cases end ====== -->
 
     <!-- ====== Contact Start ====== -->
@@ -585,42 +581,43 @@
               data-wow-delay=".2s"
             >
               <h3 class="ud-contact-form-title">Request a demonstration</h3>
-              <form class="ud-contact-form">
+              <form class="ud-contact-form" action="contact.php" method="post">
                 <div class="ud-form-group">
-                  <label for="fullName">Full Name*</label>
+                  <label for="visitor_name">Full Name*</label>
                   <input
                     type="text"
-                    name="fullName"
+                    name="visitor_name"
                     placeholder="Adam Firstman"
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="email">Email*</label>
+                  <label for="visitor_email">Email*</label>
                   <input
                     type="email"
-                    name="email"
+                    name="visitor_email"
                     placeholder="example@yourmail.com"
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="phone">Phone*</label>
+                  <label for="visitor_phone">Phone*</label>
                   <input
                     type="text"
-                    name="phone"
+                    name="visitor_phone"
                     placeholder="+1 ***_****_***"
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="message">Tell us about your company or project.*</label>
+                  <label for="visitor_message">Tell us about your company or project.*</label>
                   <textarea
-                    name="message"
+                    name="visitor_message"
                     rows="1"
                     placeholder="type your message here"
                   ></textarea>
                 </div>
+                <input type="hidden" id="email_title" name="email_title" value="Requesting Demo for Patient Experience Solutions">
                 <div class="ud-form-group mb-0">
                   <button type="submit" class="ud-main-btn">
-                    Request Demo
+                    Start Conversation
                   </button>
                 </div>
               </form>
