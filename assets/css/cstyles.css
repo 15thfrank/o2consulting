@@ -295,3 +295,16 @@ a.navbar-brand:hover {
 /* .homepage {
     background: grey;
 } */
+
+.ud-hero .shape {
+    position: absolute;
+}
+
+.ud-hero .shape.shape-2 {
+    right: 0;
+    top: 0;
+}
+.ud-hero .shape.shape-3 {
+    bottom: 0;
+    right: 0;
+}
