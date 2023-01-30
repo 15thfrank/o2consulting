@@ -299,7 +299,9 @@ a.navbar-brand:hover {
 .ud-hero .shape {
     position: absolute;
 }
-
+.ud-hero .shape.shape-1 {
+    bottom: 0;
+}
 .ud-hero .shape.shape-2 {
     right: 0;
     top: 0;
