@@ -10,7 +10,7 @@ if($_POST) {
     $email_body = "<div>";
     $email_title = "";
 
-    $recipient = "15thfrank@gmail.com";
+    $recipient = "contact@o2consulting.com";
 
     if(isset($_POST['visitor_name'])) {
         $visitor_name = filter_var($_POST['visitor_name'], FILTER_SANITIZE_STRING);
@@ -56,12 +56,12 @@ if($_POST) {
     .'From: ' . $visitor_email . "\r\n";
 
     if(mail($recipient, $email_title, $email_body, $headers)) {
-        echo "<p>Thank you for contacting us, $visitor_name. You will get a reply shortly.</p>";
+        header("Location:successmail.html");
     } else {
-        echo '<p>We are sorry but the email did not go through.</p>';
+        header("Location:errormail.html");
     }
 
 } else {
-    echo '<p>Something went wrong</p>';
+    header("Location:errormail.html");
 }
 ?>
