@@ -52,11 +52,11 @@
     }
 }
 
-#features .ud-about-image {
+#features .ud-about-image, #curriculum .ud-about-image {
     margin: 0 auto;
     display: flex; flex-wrap: wrap; align-content: center;
 }
-#features .ud-about-image img {
+#features .ud-about-image img, #curriculum .ud-about-image img {
     width: auto;
 }
 
