@@ -159,19 +159,7 @@ a.ctaBtn:hover {
     margin-bottom: 10px;
 }
 
-@media (max-width: 990px) {
-    #services .ud-about-image {
-        display: none;
-    }
-    .rowReverse {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .rowStandard {
-        display: flex;
-        flex-direction: column;
-    }
-}
+
 
 #coreAreas .ud-single-feature {
     padding: 2rem;
@@ -348,4 +336,24 @@ a.navbar-brand:hover {
 }
 #curriculum p {
     margin-bottom: 0.5rem;
+}
+
+@media (max-width: 990px) {
+    #services .ud-about-image {
+        display: none;
+    }
+    .rowReverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rowStandard {
+        display: flex;
+        flex-direction: column;
+    }
+    .usecasehead {
+        position: relative;
+        margin-left: 0;
+        top: 1rem;
+        right: 0;
+    }
 }
