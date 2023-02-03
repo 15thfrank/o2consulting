@@ -163,6 +163,14 @@ a.ctaBtn:hover {
     #services .ud-about-image {
         display: none;
     }
+    .rowReverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rowStandard {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 #coreAreas .ud-single-feature {
