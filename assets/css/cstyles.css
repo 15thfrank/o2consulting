@@ -164,7 +164,7 @@ a.ctaBtn:hover {
 #coreAreas .ud-single-feature {
     padding: 2rem;
     transition: all 0.5s;
-    min-height: 230px;
+    min-height: 285px;
     display: flex;
     align-items: center;
 }
@@ -330,7 +330,7 @@ a.navbar-brand:hover {
 #recruitment h2, #recruitment p {
     color: var(--o2white)
 }
-#recruitment .container {
+#recruitment .container, .homepage .container {
     position: relative;
     z-index: 9;
 }
