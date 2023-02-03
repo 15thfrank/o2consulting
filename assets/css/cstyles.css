@@ -357,3 +357,7 @@ a.navbar-brand:hover {
         right: 0;
     }
 }
+
+.ud-footer-bottom {
+    display: none;
+}
